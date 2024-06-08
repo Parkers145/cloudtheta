@@ -1,0 +1,6 @@
+exec: bash -c "theta start --config=/etc/theta --password={$THETA_PASSWORD}"
+oneshot: false
+log: stdout
+after:
+  - theta-init
+
